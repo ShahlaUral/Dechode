@@ -1,0 +1,121 @@
+﻿
+@{
+    Layout = "_Layout";
+}
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+    }
+
+    .contact-section {
+        padding: 50px;
+        margin-top: 60px;
+    }
+
+    .contact-header {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .contact-details {
+        margin-bottom: 30px;
+    }
+
+        .contact-details h5 {
+            font-weight: bold;
+            color: #F1A501;
+        }
+
+        .contact-details p {
+            margin: 0;
+        }
+
+    .contact-form {
+        background: white;
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-control {
+        border-radius: 5px;
+    }
+
+    .btn-orange {
+        background-color: #F1A501;
+        color: white;
+        border: none;
+    }
+
+        .btn-orange:hover {
+            background-color: #F1A501;
+        }
+
+    .contactUsHeader{
+        padding:0px 40px 40px 40px;
+    }
+
+    .contact-form input, .form-control textarea{
+        padding: 10px 5px;
+        border-radius: 0px;
+        font-size: 14px;
+    }
+    .contact-form button{
+        padding: 10px 20px;
+    }
+</style>
+<div class="container contact-section">
+    <div class="contactUsHeader text-center">
+        <h1>Contact Us</h1>
+    </div>
+    <div class="row">
+        <!-- Contact Information -->
+        <div class="col-md-6">
+            <div class="contact-header"><p>Will you be in Los Angeles or any other branches any time soon? Stop by the office! We'd love to meet.</p></div>
+            <div class="contact-details">
+                <h5>ADDRESS</h5>
+                <p>1702 Olympic Boulevard</p>
+                <p>Santa Monica, CA 90404</p>
+            </div>
+            <div class="contact-details">
+                <h5>PHONE NUMBER</h5>
+                <p>(480) 555-0103</p>
+                <p>(219) 555-0114</p>
+            </div>
+            <div class="contact-details">
+                <h5>EMAIL ADDRESS</h5>
+                <p>help.eduguard@gmail.com</p>
+                <p>career.eduguard@gmail.com</p>
+            </div>
+        </div>
+        <!-- Contact Form -->
+        <div class="col-md-6">
+            <div class="contact-form">
+                <h4 class="mb-4">Get In Touch</h4>
+                <p>Feel free contact with us, we love to make new partners & friends</p>
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="First Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email Address">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Message Subject">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-orange">Send Message ➤</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

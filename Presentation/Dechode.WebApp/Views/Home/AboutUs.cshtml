@@ -1,0 +1,186 @@
+﻿@{
+    Layout = "_Layout";
+}
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .aboutUs{
+        margin-top: 70px;
+    }
+    .section-title {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .statistics .stat {
+        text-align: center;
+    }
+
+        .statistics .stat h3 {
+            font-size: 2rem;
+            color: #F1A501;
+        }
+
+        .statistics .stat p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+    .testimonials .testimonial {
+        background-color: #f7f7f7;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .gallery img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .aboutUsSection, .mission, .gallery {
+        background-color: #F5F7FA !important;
+    }
+ /*    
+    .mission {
+        background-color: #fff1da !important
+    } */
+
+
+    .textSide{
+        padding: 8% 30px;
+    }
+    .textSide h1{
+            color: #E9EAF0;
+            font-size: 60px;
+    }
+
+    .imageSide img{
+        width: 90%;
+    }
+    .gallery h6{
+        color: #F1A501;
+    }
+</style>
+
+<div class="aboutUs">
+    <section class="aboutUsSection py-5  text-center">
+        <div class="container">
+            <h1 class="section-title">About Us</h1>
+        </div>
+        
+    </section>
+    <section class=" py-5 ">
+        <div class="container innertext">
+            <div class="row">
+                <div class="col textSide">
+                    <h1>2023-2024</h1>
+                    <h4>We share knowledge with the world</h4>
+                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent fermentum quam mauris. Fusce tempor et augue a aliquet. Donec non ipsum non risus egestas tincidunt at vitae nulla. </p>
+                </div>
+                <div class="col imageSide">
+                    <img src="~/images/images.png" />
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!-- Mission -->
+    <section class="mission py-5 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col imageSide">
+                    <img src="~/images/our-mission.png" />
+                </div>
+                <div class="col textSide">
+                    <h3>OUR ONE BILLION MISSION</h3>
+                    <h4>Our one billion mission sounds bold, We agree.</h4>
+                    <p>"We cannot solve our problems with the same thinking we used when we created them."—Albert Einstein. Institutions are slow to change. Committees are where good ideas and innovative thinking go to die. Choose agility over dogma. Embrace and drive change. We need to wipe the slate clean and begin with bold, radical thinking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Statistics -->
+    <section class="statistics py-5">
+        <div class="container text-center">
+            <h2 class="section-title">Our Impact</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="stat">
+                        <h3>100,000+</h3>
+                        <p>Happy Travelers</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Countries Covered</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat">
+                        <h3>10,000+</h3>
+                        <p>Tour Packages</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Gallery -->
+    <section class="gallery py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Our Memories</h2>
+            <div class="row">
+                <div class="col textSide">
+                    <h6>OUR GALLERY</h6>
+                    <h2>We’ve been here 1 years</h2>
+                    <p>Fusce lobortis leo augue, sit amet tristique nisi commodo in. Aliquam ac libero quis tellus venenatis imperdiet. Sed sed nunc libero. Curabitur in urna ligula.  torquent per conubia nostra.</p>
+
+                </div>
+                <div class="col">
+                    <img src="~/images/gallery.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials py-5 bg-white">
+        <div class="container">
+            <h2 class="section-title text-center">What Our Clients Say</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="testimonial">
+                        <p>"Jadoo helped me explore new destinations effortlessly. Highly recommend!"</p>
+                        <h4>- Alice Brown</h4>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="testimonial">
+                        <p>"Amazing service and unforgettable experiences!"</p>
+                        <h4>- John Doe</h4>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="testimonial">
+                        <p>"Amazing service and unforgettable experiences!"</p>
+                        <h4>- John Doe</h4>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+</div>

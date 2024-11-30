@@ -18,11 +18,25 @@ namespace Dechode.WebApp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult AboutUs()
         {
             return View();
         }
 
+        public IActionResult Courses()
+        {
+            return View();
+        }
+
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
+
+        public IActionResult Activities()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
