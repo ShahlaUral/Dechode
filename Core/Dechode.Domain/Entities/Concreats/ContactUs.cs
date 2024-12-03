@@ -12,9 +12,9 @@ namespace Dechode.Domain.Entities.Concreats
         public string Address { get; set; } 
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
-        public ICollection<ContactQuery> Queries { get; set; }
+        public ICollection<ApplicantQuery> Queries { get; set; }
     }
-    public class ContactQuery : BaseEntitiy
+    public class ApplicantQuery : BaseEntitiy
     {
         public string FullName { get; set; }
         public string Email { get; set; }

@@ -1,4 +1,6 @@
-﻿using Dechode.Persistance.DbContexts;
+﻿using Dechode.Application.Repositories;
+using Dechode.Persistance.DbContexts;
+using Dechode.Persistance.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,6 +26,12 @@ namespace Dechode.Persistance
             });
 
             //aşağıda isə repoların registrasiyası icra oluna bilər. Yazdıqca olunmalıdır. 
+
+            // Read
+            services.AddScoped<IReadApplicantQueryRepository, ReadApplicantQueryRepository>();
+            //write
+            services.AddScoped<IWriteApplicantQueryRepository, WriteApplicantQueryRepository>();
         }
     }
 }
+ 

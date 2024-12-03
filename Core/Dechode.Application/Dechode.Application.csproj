@@ -10,8 +10,4 @@
     <ProjectReference Include="..\Dechode.Domain\Dechode.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>

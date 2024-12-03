@@ -52,17 +52,20 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
                 <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
-                            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" asp-controller="Home" asp-action="Index">Home</a></li>
-                            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" asp-controller="Home" asp-action="AboutUs">About us</a></li>
-                            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" asp-controller="Home" asp-action="Courses">Courses</a></li>
-                            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" asp-controller="Home" asp-action="ContactUs">Contact Us</a></li>
-                            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" asp-controller="Home" asp-action="Activities">Activities</a></li>
-                        <li class="nav-item dropdown px-3 px-lg-0">
+                        <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" asp-controller="Home" asp-action="Index">Ana Səhifə</a></li>
+                        <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" asp-controller="Home" asp-action="AboutUs">Haqqımızda</a></li>
+                            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" asp-controller="Home" asp-action="Courses">Tədris</a></li>
+                        <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" asp-controller="Home" asp-action="ContactUs">Əlaqə</a></li>
+                        <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" asp-controller="Home" asp-action="Activities">Fəaliyyətlər</a></li>
+                        @* <li class="nav-item dropdown px-3 px-lg-0">
                             <a class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-medium" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
                             <ul class="dropdown-menu dropdown-menu-end border-0 shadow-lg" style="border-radius:0.3rem;" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#!">EN</a></li>
                                 <li><a class="dropdown-item" href="#!">AZE</a></li>
                             </ul>
+                        </li> *@
+                        <li class="nav-item px-3 px-lg-0">
+                            <a class="btn btn-primary fw-medium py-2 px-4" asp-action="ContactUs" asp-controller="Home" role="button" style="border-radius: 0.3rem;">Müraciət et</a>
                         </li>
                     </ul>
                 </div>

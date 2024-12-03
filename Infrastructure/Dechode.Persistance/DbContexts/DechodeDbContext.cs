@@ -39,7 +39,7 @@ namespace Dechode.Persistance.DbContexts
         public virtual DbSet<TeamMember> TeamMembers { get; set; }
         public virtual DbSet<Course> Courses { get; set; }
         public virtual DbSet<ContactUs> ContactUsPages { get; set; }
-        public virtual DbSet<ContactQuery> ContactQueries { get; set; }
+        public virtual DbSet<ApplicantQuery> ContactQueries { get; set; }
         public virtual DbSet<Activity> Activities { get; set; }
     }
 }

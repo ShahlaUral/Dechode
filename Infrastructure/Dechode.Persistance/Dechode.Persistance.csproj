@@ -22,8 +22,4 @@
     <ProjectReference Include="..\..\Core\Dechode.Application\Dechode.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>
